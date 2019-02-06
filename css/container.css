@@ -1,0 +1,67 @@
+/* modele 1 */
+
+.grid-container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img{
+    grid-row: 2/ span 1;
+    grid-column: 1/span 1;
+    background-image: url('../img/img_0.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.img2{
+    background-image: url('../img/img_1.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.txt{
+    grid-row: 1/ span 1;
+    grid-column: 1/span 1;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.txt2{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+/* modèle 2 */
+
+.grid-container-1{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url('../img/img_0.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.container{
+    overflow: scroll;
+    height: 100%;
+}
+
+.img3{
+    height: 200px;
+    background-image: url('../img/img_2.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.txt3{
+    padding: 10px;
+}
